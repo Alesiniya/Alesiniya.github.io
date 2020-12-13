@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');
+
+
+
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+.content{
+    width: 612px;
+    margin: 0 auto;
+    padding: 33px 37px;
+    
+    display: flex;
+
+    
+}
+
+.left{
+    width: 347px;
+    border-right:1px solid #1C1C1C;
+}
+
+.right{
+    padding-left: 21px;
+    
+}
+
+
+hr{
+    background-color: #1C1C1C;
+    height: 1px;
+    border: 0;
+}
+
+
+.label{
+ width: 130px;
+padding: 8px 10px;
+border: 1px solid #1C1C1C;
+box-sizing: border-box;
+}
+
+
+.label____text{
+font-style: normal;
+font-weight: 200;
+font-size: 10px;
+line-height: 12px;
+text-align: center;
+text-transform: uppercase;
+letter-spacing: 0.14em;
+color: #1C1C1C;
+}
+
+
+.fullname{
+    
+    padding-bottom: 20px;
+    
+}
+
+.fullname___text{
+width: 214px;
+font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 39px;
+color: #1C1C1C;
+}
+
+.fullname___text-indent{
+    margin-top: 17px;
+    }
+
+
+
+    .info___indent-margin{
+        margin-top: 20px;
+    }
+
+    .info___text{
+font-style: normal;
+font-weight: 200;
+font-size: 10px;
+line-height: 20px;
+letter-spacing: 0.14em;
+color: #1C1C1C;
+    }
+
+    .info___desc-indent{
+        margin-top: 17px;
+    }
+    .info___desc-padding{
+        padding-right: 5px;
+    }
+
+    .experience___title{
+text-transform: uppercase;
+font-style: normal;
+font-weight: 200;
+font-size: 14px;
+line-height: 17px;
+letter-spacing: 0.15em;
+color: #1C1C1C;
+    }
+
+    .experience___title-indent{
+        margin-top: 22px;
+    }
+
+.work{
+    width: 320px;
+}
+
+.work___paddind-indent{
+    padding-top: 30px;
+}
+
+    .work___company{
+font-style: normal;
+font-weight: bold;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 0.14em;
+color: #1C1C1C;
+    }
+
+    .work___position{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.14em;
+        color: #1C1C1C;  
+    }
+
+    .work___text{
+        font-style: normal;
+font-weight: 200;
+font-size: 10px;
+letter-spacing: 0.14em;
+color: #1C1C1C;
+    }
+
+    .work___text-indent{
+        padding-bottom: 10px;
+    }
